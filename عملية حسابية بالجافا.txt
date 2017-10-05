@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>javaScript</title>
+
+  <script type="text/javascript">
+   function cal (x)
+   {
+	   var n=Math.pow (x,2);
+	   var ac=3.14*n;
+	   var cc=3.14*x*2;
+	   var as=n;
+	   var cs=4*x;
+	   document.write("area of circle= "+ac+"<br/>");
+	   document.write("_____________________________________"+"<br/>");
+	   document.write("circumferenc of circle= "+cc+"<br/>");
+	   document.write("_____________________________________"+"<br/>");
+	  
+	   document.write("area of square= "+as+"<br/>");
+	   document.write("_____________________________________"+"<br/>");
+	   document.write("circumferenc of square= "+cs+"<br/>");
+	   document.write("_____________________________________"+"<br/>");
+  
+  }
+  var d=prompt ("enter value to calculate","");
+  cal (d);
+  </script>
+</head>
+
+<body>
+</body>
+</html>
